@@ -81,18 +81,19 @@ newLine('exercise 30')
 const exercise30=function(arrNum1, arrNum2){
     let sum1=0
     for(let i=0; i<arrNum1.length; i++){
+        
         sum1+=arrNum1[i]
-        return sum1
-    }
+        
+    };
     let sum2=0
     for (i=0; i<arrNum2.length; i++){
-        sum2+=arrNum1[i]
-        return sum2
-    }
+        sum2+=arrNum2[i]
+        
+    };
 
-    sum1>sum2?console.log(`${arrNum1} have the higher sum of values`):(`${arrNum2} have the higher sum of values`)
+    return sum1>sum2?arrNum1:arrNum2
 }
 
 let arrNum1=[1, 2, 3, 4, 5]
 let arrNum2=[1, 2, 3]
-console.log(exercise30(arrNum1, arrNum2))
+console.log(exercise30(arrNum1,arrNum2))
