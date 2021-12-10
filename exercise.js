@@ -97,3 +97,52 @@ const exercise30=function(arrNum1, arrNum2){
 let arrNum1=[1, 2, 3, 4, 5]
 let arrNum2=[1, 2, 3]
 console.log(exercise30(arrNum1,arrNum2))
+
+
+
+//DOM EXERCISES
+
+//31) Get the element with an id of "container" from the page
+document.getElementById('#container')
+
+//32) Get every <td> element from the page
+let td=document.querySelectorAll('td')
+
+//33) Use a loop for printing the text inside of every <td> element in the page
+for(i=0; i<td.lenght; i++){
+    td[i].innerHTML='Domodossola'
+}
+
+//34) Write a function to change the heading of the page
+document.querySelector('title').innerHTML='Hello World'
+
+//35) Write a function to add an extra row to the table
+const addExtraRow= function(){
+    
+    let newRow=document.createElement('tr')
+    newRow.appendChild('table')
+}
+
+//36) Write a function to add a class of "test" to each row in the table
+const addClass=function(){
+    let trAddClass=document.querySelectorAll('tr')
+    trAddClass.classList.add('test')
+}
+
+//37) Write a function to add a red background to every link in the page
+const addBackground= function (){
+    let backGround=document.querySelectorAll('link').style.background='red'
+    
+}
+
+
+//38) Console log "Page loaded" when the page is correctly loaded
+document.addEventListener("DOMContentLoaded", function(){
+    //dom is fully loaded, but maybe waiting on images & css files
+});
+
+
+//39) Write a function to add new items to a unordered list
+const createNewItem= function(){
+    
+}
