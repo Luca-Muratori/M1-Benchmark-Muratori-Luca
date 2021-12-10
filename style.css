@@ -1,0 +1,49 @@
+body{
+    max-width: 70%;
+    margin: auto;
+}
+
+h1{
+    max-width: 300px;
+    margin: auto;
+}
+
+link{
+    color:aqua
+}
+
+table, th, td {
+        border: 5px solid black;
+        border-radius: 1%;
+        border-collapse: collapse;
+        
+}
+
+td{
+    border-color: rgb(252, 17, 0);
+    border-style: dotted none;
+}
+
+tr{
+    
+    border-top: 1px solid black ;
+    
+
+}
+
+p{
+    margin:100px 100px
+}
+
+.changeStyle{
+    font-size: 100px;
+    font-weight: 300px;
+}
+
+img{
+    display: none;
+}
+
+.borderClass{
+    border: olivedrab;
+}
